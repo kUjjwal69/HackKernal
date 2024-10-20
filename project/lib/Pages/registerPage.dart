@@ -34,15 +34,7 @@ if (_formKey.currentState!.validate()) {
               fit:BoxFit.cover
               ),
               
-              Text(
-                "Glad you joined us",
-              style: TextStyle( 
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                
-              ),
               
-              ),
               SizedBox(
                 height: 20.0,
                 width: 15.0,

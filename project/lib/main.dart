@@ -23,7 +23,7 @@ class _HomeState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.LoginRoute,
+      initialRoute: MyRoutes.HomeRoute,
       routes: {
         MyRoutes.LoginRoute:(context) => LoginPage(),
         MyRoutes.HomeRoute:(context) => HomePage(),
