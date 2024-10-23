@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:project/Pages/aboutPage.dart';
 import 'package:project/Pages/homePage.dart';
 import 'package:project/Pages/loginPage.dart';
-import 'package:project/Pages/registerPage.dart';
 import 'package:project/routes.dart';
 
 void main()async{
@@ -23,11 +23,11 @@ class _HomeState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: MyRoutes.HomeRoute,
+      initialRoute: MyRoutes.LoginRoute,
       routes: {
         MyRoutes.LoginRoute:(context) => LoginPage(),
         MyRoutes.HomeRoute:(context) => HomePage(),
-        MyRoutes.RegisterRoute:(context) => RegisterPage(),
+        MyRoutes.Aboutroute:(context) => AboutPage(),
       },
     );
   }
