@@ -38,6 +38,7 @@ dependencies:
   image_picker: ^1.1.2
   modal_progress_hud_nsn: ^0.5.0
   http: ^1.2.2
+  shared_preferences: ^2.3.2
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +66,8 @@ flutter:
   assets:
     - Assets/Images/undraw_Login_re_4vu2.png
     - Assets/Images/undraw_Welcoming_re_x0qo.png
+    - Assets/Images/Ujjwal Kumar Photo-1.png
+    - Assets/Images/394950437_1385495148720912_4812952443226084640_n.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
